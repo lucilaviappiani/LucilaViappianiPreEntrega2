@@ -54,6 +54,7 @@ footer{
     background-image: url(../media/14308688_5457468.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    position: fixed;
 }
 
 .Footer--contacto{
