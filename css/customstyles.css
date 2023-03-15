@@ -75,6 +75,10 @@ footer{
 
 /*ABOUT ME STYLES*/
 
+.Aboutme--content{
+    padding-top: 8em;
+}
+
 .Aboutme--container{
     display: flex;
     flex-direction: column;
@@ -86,6 +90,7 @@ footer{
 .Aboutme--container-modifier{
     background-color: #E2209D;
     justify-content: center;
+    padding: 5em 2em 5em 2em;
 }
 
 .Aboutme--title{
