@@ -1,0 +1,388 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Unbounded";
+  src: url("../fonts/Unbounded/Unbounded-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Syne";
+  src: url("../fonts/Syne/Syne-VariableFont_wght.ttf");
+}
+.navbar {
+  background-color: #04020C;
+}
+.navbar .navbar-brand {
+  font-family: "Unbounded";
+  font-size: 1em;
+}
+.navbar .nav-item {
+  font-family: "Unbounded";
+}
+
+.Carousel--container {
+  margin: 3.5em 0em 3.5em 0em;
+}
+
+.Reviews--container h1 {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 2em;
+}
+.Reviews--container p {
+  font-family: "Unbounded";
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+.Client--box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1em;
+}
+.Client--box h3 {
+  font-family: "Unbounded";
+  font-weight: normal;
+  font-size: 1.6em;
+}
+.Client--box p {
+  font-family: "Unbounded";
+  font-weight: lighter;
+  letter-spacing: 0.2em;
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+footer {
+  background-color: #04020C;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer .Footer--contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1em;
+  font-family: "Unbounded";
+  font-size: 1em;
+}
+footer .Footer--contacto .Footer--socialmedia {
+  column-gap: 1em;
+}
+footer .Footer--copyright {
+  font-family: "Unbounded";
+  font-size: 1em;
+}
+
+/*ESTILOS SECCIÓN ABOUT ME*/
+.Aboutme--content {
+  padding-top: 8em;
+}
+.Aboutme--content .Aboutme--image {
+  width: 350px;
+}
+.Aboutme--content .Aboutme--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2em;
+  padding: 2em;
+}
+.Aboutme--content .Aboutme--container h4 {
+  color: #E2209D;
+  font-family: "Syne";
+  font-weight: 800;
+  text-align: center;
+  font-size: 2.2em;
+  line-height: 1.4em;
+}
+.Aboutme--content .Aboutme--container p {
+  color: #ffffff;
+  font-family: "Unbounded";
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+  line-height: 2em;
+  text-align: center;
+}
+.Aboutme--content .Aboutme--container-modifier {
+  background-color: #E2209D;
+  justify-content: center;
+  padding: 5em 2em 5em 2em;
+}
+.Aboutme--content .Aboutme--container-modifier p {
+  color: #ffffff;
+  font-family: "Unbounded";
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+  line-height: 2em;
+  text-align: center;
+}
+
+/*SECCIÓN SERVICES*/
+.Services--content .Services--title {
+  padding: 2em;
+  font-family: "Unbounded";
+  font-weight: normal;
+  font-size: 1.4em;
+  letter-spacing: 0.14em;
+  text-align: center;
+}
+.Services--content .Service--container {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1em;
+  text-align: center;
+}
+.Services--content .Service--container h5 {
+  font-family: "Unbounded";
+  font-weight: 900;
+  font-size: 1.9em;
+  color: black;
+}
+.Services--content .Service--container p {
+  font-family: "Unbounded";
+  font-size: 0.9em;
+  line-height: 1.9em;
+  letter-spacing: 0.1em;
+  color: black;
+}
+.Services--content .Service--container a {
+  background-color: #E2209D;
+  border-color: #E2209D;
+  border-radius: 25px;
+  font-family: "Unbounded";
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+.Services--content .Service--1 {
+  background-image: url(../media/gradient\ \(1\).jpg);
+  background-size: cover;
+}
+.Services--content .Service--2 {
+  background-image: url(../media/gradient\ \(2\).jpg);
+  background-size: cover;
+}
+.Services--content .Service--3 {
+  background-image: url(../media/gradient\ \(3\).jpg);
+  background-size: cover;
+}
+.Services--content .Service--4 {
+  background-image: url(../media/gradient\ \(4\).jpg);
+  background-size: cover;
+}
+
+/*SECCION PROYECTS*/
+.Proyects--grilla {
+  display: grid;
+  grid-template-areas: "nav" "img1" "img2" "img3" "img4" "img5" "img6" "img7" "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, auto);
+}
+.Proyects--grilla .Gallery--image {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img5 {
+  grid-area: img5;
+}
+
+.img6 {
+  grid-area: img6;
+}
+
+.img7 {
+  grid-area: img7;
+}
+
+/*SECCION CONTACT ME */
+.Contactme--content {
+  background-color: #04020C;
+  margin-top: 2em;
+  padding: 2em;
+}
+.Contactme--content .Form--container {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4em 2em 2em 2em;
+  background-color: #171717;
+  border-radius: 25px;
+}
+.Contactme--content .Form--container .Form--fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  row-gap: 2em;
+}
+.Contactme--content .Form--container .Form--fieldset .Form--legend {
+  color: #ffffff;
+  font-family: "Unbounded";
+  font-weight: normal;
+  font-size: 1.4em;
+  text-align: center;
+}
+.Contactme--content .Form--container .Form--fieldset .Form--label {
+  margin-bottom: 0.5em;
+  color: #ffffff;
+  display: block;
+  font-family: "Unbounded";
+  font-weight: normal;
+  font-size: 1em;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+.Contactme--content .Form--container .Form--fieldset .Form--input {
+  font-family: "Unbounded";
+  font-weight: normal;
+  font-size: 0.9em;
+  text-align: center;
+}
+.Contactme--content .Form--container .Form--fieldset .Form--button {
+  color: #ffffff;
+  background-color: #E2209D;
+  border-color: #E2209D;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 24px;
+  font-family: "Unbounded";
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+}
+.Contactme--content .Socialmedia--container {
+  padding: 1em;
+  margin: 4em 2em 1em 2em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5em;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../media/gradient\ \(3\).jpg);
+  background-size: cover;
+  border-radius: 1em;
+}
+.Contactme--content .Socialmedia--container h2 {
+  font-family: "Unbounded";
+  font-weight: normal;
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.Contactme--content .Socialmedia--container .Socialmedia--icons {
+  display: flex;
+  column-gap: 2em;
+}
+.Contactme--content .Socialmedia--container .Socialmedia--icons img {
+  width: 2.4em;
+}
+.Contactme--content .mapa {
+  padding: 1em;
+  width: 100%;
+  height: 20em;
+  border-radius: 2em;
+}
+
+@media screen and (min-width: 576px) {
+  .Aboutme--content .Aboutme--image {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Aboutme--content .Aboutme--image {
+    width: 450px;
+  }
+  .Aboutme--content .Aboutme--container h4 {
+    margin-right: 1em;
+    font-size: 2.75em;
+    line-height: 1.5em;
+  }
+  .Aboutme--content .Aboutme--container p {
+    margin-right: 1em;
+    font-size: 0.8em;
+  }
+  .Services--content .Service--container {
+    height: 500px;
+  }
+  .Proyects--grilla {
+    display: grid;
+    grid-template-areas: "nav nav nav nav" "img1 img1 img1 img1" "img3 img3 img3 img2" "img4 img4 img5 img5" "img4 img4 img6 img6" "img7 img7 img6 img6" "footer footer footer footer";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, auto);
+  }
+  .Contactme--content .mapa {
+    height: 30em;
+  }
+}
+@media screen and (min-width: 992px) {
+  .Aboutme--content .Aboutme--image {
+    width: 500px;
+  }
+  .Aboutme--content .Aboutme--container h4 {
+    margin-right: 1em;
+    font-size: 3.5em;
+    line-height: 1.5em;
+  }
+  .Aboutme--content .Aboutme--container p {
+    margin-right: 1em;
+    font-size: 1em;
+  }
+  .Services--content .Services--title {
+    font-size: 1.8em;
+  }
+  .Services--content .Service--container h5 {
+    font-size: 2.2em;
+  }
+  .Services--content .Service--container p {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbar .navbar-brand {
+    font-size: 1.4em;
+  }
+  .Services--content .Service--container {
+    padding: 2em;
+  }
+  .Services--content .Service--container h5 {
+    font-size: 2.5em;
+  }
+  .Services--content .Service--container a {
+    font-size: 1.2em;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
