@@ -160,19 +160,19 @@ footer .Footer--copyright {
   letter-spacing: 0.1em;
 }
 .Services--content .Service--1 {
-  background-image: url(../media/gradient\ \(1\).jpg);
+  background-image: url(../media/gr\ \(1\).jpg);
   background-size: cover;
 }
 .Services--content .Service--2 {
-  background-image: url(../media/gradient\ \(2\).jpg);
+  background-image: url(../media/gr\ \(2\).jpg);
   background-size: cover;
 }
 .Services--content .Service--3 {
-  background-image: url(../media/gradient\ \(3\).jpg);
+  background-image: url(../media/gr\ \(3\).jpg);
   background-size: cover;
 }
 .Services--content .Service--4 {
-  background-image: url(../media/gradient\ \(4\).jpg);
+  background-image: url(../media/gr\ \(4\).jpg);
   background-size: cover;
 }
 
@@ -319,6 +319,9 @@ footer .Footer--copyright {
 @media screen and (min-width: 576px) {
   .Aboutme--content .Aboutme--image {
     width: 400px;
+  }
+  .Services--content .Service--container {
+    height: 450px;
   }
 }
 @media screen and (min-width: 768px) {
