@@ -28,7 +28,7 @@
   text-align: center;
   font-size: 2em;
 }
-.Reviews--container p {
+.Reviews--container h2 {
   font-family: "Unbounded";
   font-weight: normal;
   font-size: 1.2em;
@@ -90,7 +90,7 @@ footer .Footer--copyright {
   row-gap: 2em;
   padding: 2em;
 }
-.Aboutme--content .Aboutme--container h4 {
+.Aboutme--content .Aboutme--container h1 {
   color: #E2209D;
   font-family: "Syne";
   font-weight: 800;
@@ -98,7 +98,7 @@ footer .Footer--copyright {
   font-size: 2.2em;
   line-height: 1.4em;
 }
-.Aboutme--content .Aboutme--container p {
+.Aboutme--content .Aboutme--container h2 {
   color: #ffffff;
   font-family: "Unbounded";
   font-size: 0.8em;
@@ -111,7 +111,7 @@ footer .Footer--copyright {
   justify-content: center;
   padding: 5em 2em 5em 2em;
 }
-.Aboutme--content .Aboutme--container-modifier p {
+.Aboutme--content .Aboutme--container-modifier h3 {
   color: #ffffff;
   font-family: "Unbounded";
   font-size: 0.8em;
@@ -138,7 +138,7 @@ footer .Footer--copyright {
   row-gap: 1em;
   text-align: center;
 }
-.Services--content .Service--container h5 {
+.Services--content .Service--container h2 {
   font-family: "Unbounded";
   font-weight: 900;
   font-size: 1.9em;
@@ -229,6 +229,14 @@ footer .Footer--copyright {
   background-color: #04020C;
   margin-top: 2em;
   padding: 2em;
+}
+.Contactme--content .Contact--title {
+  padding: 2em;
+  font-family: "Unbounded";
+  font-weight: normal;
+  letter-spacing: 0.14em;
+  text-align: center;
+  color: #ffffff;
 }
 .Contactme--content .Form--container {
   padding: 2em;
@@ -328,12 +336,12 @@ footer .Footer--copyright {
   .Aboutme--content .Aboutme--image {
     width: 450px;
   }
-  .Aboutme--content .Aboutme--container h4 {
+  .Aboutme--content .Aboutme--container h1 {
     margin-right: 1em;
     font-size: 2.75em;
     line-height: 1.5em;
   }
-  .Aboutme--content .Aboutme--container p {
+  .Aboutme--content .Aboutme--container h2 {
     margin-right: 1em;
     font-size: 0.8em;
   }
@@ -354,19 +362,22 @@ footer .Footer--copyright {
   .Aboutme--content .Aboutme--image {
     width: 500px;
   }
-  .Aboutme--content .Aboutme--container h4 {
+  .Aboutme--content .Aboutme--container h1 {
     margin-right: 1em;
     font-size: 3.5em;
     line-height: 1.5em;
   }
-  .Aboutme--content .Aboutme--container p {
+  .Aboutme--content .Aboutme--container h2 {
     margin-right: 1em;
-    font-size: 1em;
+    font-size: 0.9em;
+  }
+  .Aboutme--content .Aboutme--container-modifier h3 {
+    font-size: 0.9em;
   }
   .Services--content .Services--title {
     font-size: 1.8em;
   }
-  .Services--content .Service--container h5 {
+  .Services--content .Service--container h2 {
     font-size: 2.2em;
   }
   .Services--content .Service--container p {
@@ -380,7 +391,7 @@ footer .Footer--copyright {
   .Services--content .Service--container {
     padding: 2em;
   }
-  .Services--content .Service--container h5 {
+  .Services--content .Service--container h2 {
     font-size: 2.5em;
   }
   .Services--content .Service--container a {

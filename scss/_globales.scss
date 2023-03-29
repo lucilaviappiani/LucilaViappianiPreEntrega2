@@ -37,7 +37,7 @@
         text-align: center;
         font-size: 2em;
     }
-    p {
+    h2 {
         font-family: "Unbounded";
         font-weight: normal;
         font-size: 1.2em;
@@ -110,7 +110,7 @@ footer{
         row-gap: 2em;
         padding: 2em;
 
-        h4 {
+        h1 {
             color: #E2209D;
             font-family: 'Syne';
             font-weight: 800;
@@ -118,7 +118,7 @@ footer{
             font-size: 2.2em;
             line-height: 1.4em;
         }
-        p {
+        h2 {
             color: #ffffff;
             font-family: "Unbounded";
             font-size: 0.8em;
@@ -133,7 +133,7 @@ footer{
         justify-content: center;
         padding: 5em 2em 5em 2em;
 
-        p {
+        h3 {
             color: #ffffff;
             font-family: "Unbounded";
             font-size: 0.8em;
@@ -167,7 +167,7 @@ footer{
         row-gap: 1em;
         text-align: center;
 
-        h5 {
+        h2 {
             font-family: "Unbounded";
             font-weight: 900;
             font-size: 1.9em;
@@ -274,6 +274,15 @@ footer{
     background-color: #04020C;
     margin-top: 2em;
     padding: 2em;
+
+    .Contact--title{
+        padding: 2em;
+        font-family: "Unbounded";
+        font-weight: normal;
+        letter-spacing: 0.14em;
+        text-align: center;
+        color: #ffffff;
+    }
 
     .Form--container {
         padding: 2em;
