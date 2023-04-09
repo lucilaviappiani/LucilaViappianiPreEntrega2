@@ -194,22 +194,26 @@ footer{
     }
 
     .Service--1{
-        background-image: url(../media/gr\ \(1\)-min.jpg);
+        background-image: linear-gradient(to bottom,   #ff36eb9d, #cd376e, #f89ef5, #6d039e,);
         background-size: cover;
+        background-repeat: no-repeat;
     }
     
     .Service--2{
-        background-image: url(../media/gr\ \(2\)-min.jpg);
+        background-image: linear-gradient(to bottom,   #ff36eb9d, #f06e9e, #ff6596, #c258f3,);
         background-size: cover;
+        background-repeat: no-repeat;
     }
     .Service--3{
-        background-image: url(../media/gr\ \(3\)-min.jpg);
+        background-image: linear-gradient(to bottom,   #ff36eb, #ff70a4, #ffc0fd, #d4227e,);
         background-size: cover;
+        background-repeat: no-repeat;
     }
     
     .Service--4{
-        background-image: url(../media/gr\ \(4\)-min.jpg);
+        background-image: linear-gradient(to bottom,   #fc78efe4, #f4518d, #da9fd8, #76034c,);
         background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 

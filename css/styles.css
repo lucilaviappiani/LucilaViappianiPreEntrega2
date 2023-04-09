@@ -160,20 +160,24 @@ footer .Footer--copyright {
   letter-spacing: 0.1em;
 }
 .Services--content .Service--1 {
-  background-image: url(../media/gr\ \(1\)-min.jpg);
+  background-image: linear-gradient(to bottom, rgba(255, 54, 235, 0.6156862745), #cd376e, #f89ef5, #6d039e);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .Services--content .Service--2 {
-  background-image: url(../media/gr\ \(2\)-min.jpg);
+  background-image: linear-gradient(to bottom, rgba(255, 54, 235, 0.6156862745), #f06e9e, #ff6596, #c258f3);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .Services--content .Service--3 {
-  background-image: url(../media/gr\ \(3\)-min.jpg);
+  background-image: linear-gradient(to bottom, #ff36eb, #ff70a4, #ffc0fd, #d4227e);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .Services--content .Service--4 {
-  background-image: url(../media/gr\ \(4\)-min.jpg);
+  background-image: linear-gradient(to bottom, rgba(252, 120, 239, 0.8941176471), #f4518d, #da9fd8, #76034c);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*SECCION PROYECTS*/
