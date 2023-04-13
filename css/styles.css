@@ -91,7 +91,7 @@ footer .Footer--copyright {
   padding: 2em;
 }
 .Aboutme--content .Aboutme--container h1 {
-  color: #E2209D;
+  color: #ff62c8;
   font-family: "Syne";
   font-weight: 800;
   text-align: center;
@@ -107,7 +107,7 @@ footer .Footer--copyright {
   text-align: center;
 }
 .Aboutme--content .Aboutme--container-modifier {
-  background-color: #E2209D;
+  background-color: #ff62c8;
   justify-content: center;
   padding: 5em 2em 5em 2em;
 }
@@ -160,24 +160,16 @@ footer .Footer--copyright {
   letter-spacing: 0.1em;
 }
 .Services--content .Service--1 {
-  background-image: linear-gradient(to bottom, rgba(255, 54, 235, 0.6156862745), #cd376e, #f89ef5, #6d039e);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgba(249, 170, 211, 0.6784313725);
 }
 .Services--content .Service--2 {
-  background-image: linear-gradient(to bottom, rgba(255, 54, 235, 0.6156862745), #f06e9e, #ff6596, #c258f3);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgba(247, 136, 193, 0.6784313725);
 }
 .Services--content .Service--3 {
-  background-image: linear-gradient(to bottom, #ff36eb, #ff70a4, #ffc0fd, #d4227e);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgba(246, 101, 176, 0.6784313725);
 }
 .Services--content .Service--4 {
-  background-image: linear-gradient(to bottom, rgba(252, 120, 239, 0.8941176471), #f4518d, #da9fd8, #76034c);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgba(244, 66, 158, 0.6784313725);
 }
 
 /*SECCION PROYECTS*/
@@ -284,8 +276,8 @@ footer .Footer--copyright {
 }
 .Contactme--content .Form--container .Form--fieldset .Form--button {
   color: #ffffff;
-  background-color: #E2209D;
-  border-color: #E2209D;
+  background-color: #ff62c8;
+  border-color: #ff62c8;
   border-width: 2px;
   border-style: solid;
   border-radius: 24px;
@@ -302,7 +294,7 @@ footer .Footer--copyright {
   row-gap: 1.5em;
   align-items: center;
   justify-content: center;
-  background-color: #E2209D;
+  background-color: #ff62c8;
   border-radius: 1em;
 }
 .Contactme--content .Socialmedia--container h2 {

@@ -111,7 +111,7 @@ footer{
         padding: 2em;
 
         h1 {
-            color: #E2209D;
+            color: #ff62c8;
             font-family: 'Syne';
             font-weight: 800;
             text-align: center;
@@ -129,7 +129,7 @@ footer{
     }
 
     .Aboutme--container-modifier{
-        background-color: #E2209D;
+        background-color: #ff62c8;
         justify-content: center;
         padding: 5em 2em 5em 2em;
 
@@ -194,26 +194,17 @@ footer{
     }
 
     .Service--1{
-        background-image: linear-gradient(to bottom,   #ff36eb9d, #cd376e, #f89ef5, #6d039e,);
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-color:#f9aad3ad;
     }
     
     .Service--2{
-        background-image: linear-gradient(to bottom,   #ff36eb9d, #f06e9e, #ff6596, #c258f3,);
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-color:#f788c1ad;
     }
     .Service--3{
-        background-image: linear-gradient(to bottom,   #ff36eb, #ff70a4, #ffc0fd, #d4227e,);
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-color:#f665b0ad;
     }
-    
     .Service--4{
-        background-image: linear-gradient(to bottom,   #fc78efe4, #f4518d, #da9fd8, #76034c,);
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-color:#f4429ead;
     }
 }
 
@@ -333,8 +324,8 @@ footer{
 
             .Form--button{
                 color: #ffffff;
-                background-color:#E2209D ;
-                border-color: #E2209D;
+                background-color:#ff62c8 ;
+                border-color: #ff62c8;
                 border-width: 2px;
                 border-style: solid;
                 border-radius: 24px;
@@ -355,7 +346,7 @@ footer{
         row-gap: 1.5em;
         align-items: center;
         justify-content: center;
-        background-color:#E2209D ;
+        background-color:#ff62c8; ;
         border-radius: 1em;
 
         h2 {
